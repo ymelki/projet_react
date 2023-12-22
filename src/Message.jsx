@@ -1,9 +1,9 @@
 import { Message as MessageSemanticUI } from 'semantic-ui-react';
 
-function Message() {
+function Message({total}) {
     return (
       <MessageSemanticUI>
-      La recherche a retourné XXXXX résultats
+      La recherche a retourné {total} résultats
       </MessageSemanticUI>
       );
 }
