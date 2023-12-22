@@ -1,0 +1,12 @@
+.App {
+  background: #ecf0f1;;
+  margin: 0 auto;
+  max-width: 800px;
+  min-height: 100vh;
+  padding: 1rem;
+  width: 90vw;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
